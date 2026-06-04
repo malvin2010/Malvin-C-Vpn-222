@@ -12,35 +12,37 @@
 
 ## 🚀 Setup (Termux / Linux / VPS)
 
-### 1. Extract the zip
+## ✅ 1. Download Zip File 
+
+### 2. Extract the zip
 ```bash
 unzip malvin-c-vpn.zip
 cd malvin-c-vpn
 ```
 
-### 2. Install dependencies
+### 3. Install dependencies
 ```bash
 npm install
 ```
 
-### 3. Start the pairing website
+### 4. Start the pairing website
 ```bash
 node src/web.js
 ```
 
-### 4. Open the site
+### 5. Open the site
 - **Local:** http://localhost:3000
 - **Termux:** Open browser → http://localhost:3000
 - **VPS:** http://YOUR_SERVER_IP:3000
 
-### 5. Pair your number
+### 6. Pair your number
 1. Enter your WhatsApp number with country code (e.g. `263771234567`)
 2. Click **GENERATE PAIRING CODE**
 3. Open WhatsApp → Settings → Linked Devices
 4. Tap "Link a Device" → "Link with phone number instead"
 5. Enter the code shown on screen
 
-### 6. Start the bot
+### 7. Start the bot
 ```bash
 node src/index.js
 ```
@@ -75,6 +77,7 @@ Edit `src/commands.js` to add:
 
 ## 🏢 Credits
 - Bot: **Malvin C Vpn**
-- Dev: **Handsome Tech Zimbabwe**
+- Dev: **Malvin C**
+- Powered by: **Handsome tech**
 - Library: [@whiskeysockets/baileys](https://github.com/WhiskeySockets/Baileys)
 
